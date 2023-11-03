@@ -5,15 +5,6 @@ const AdminDashboard = () => {
     if (
       !localStorage.getItem("user-info") &&
       !JSON.parse(localStorage.getItem("user-info")).success
-
-
-
-
-
-      
-
-
-
     ) {
       return navigate("/login");
     }
